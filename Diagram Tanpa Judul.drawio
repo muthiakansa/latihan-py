@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T00:23:23.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="REoQiYgxH-XOn8ugn2c_" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T00:32:29.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="VWzRoaBRVPZVLeBPiw25" version="24.6.1" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="1706" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2027" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,17 +13,11 @@
         <mxCell id="3Dvt1M0W_FzMuvrTinT6-7" value="Kode A = 2 orang&lt;div&gt;Kode B = 3 orang&lt;/div&gt;&lt;div&gt;Kode C = 5&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;orang&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Kode D = 8 orang&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="305" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3Dvt1M0W_FzMuvrTinT6-8" value="+---------+&#xa;     |  Mulai  |&#xa;     +----+----+&#xa;          |&#xa;          v&#xa;   +-------------+&#xa;   | Pilih Kode  |&#xa;   |    Tenda    |&#xa;   +------+------+&#xa;          |&#xa;          v&#xa;     +----+----+&#xa;     | Kode A?  |&#xa;     +----+----+&#xa;     |    |    |&#xa;    No   Yes   v&#xa;    |    +------+       +------+&#xa;    +---&amp;gt;| Kapasitas=2 |&amp;lt;------+&#xa;         +------+      |&#xa;                        v&#xa;     +----+----+       +------+&#xa;     | Kode B?  |      | Kapasitas=4 |&#xa;     +----+----+      +------+&#xa;     |    |    |&#xa;    No   Yes   v&#xa;    |    +------+       +------+&#xa;    +---&amp;gt;| Kapasitas=4 |&amp;lt;------+&#xa;         +------+      |&#xa;                        v&#xa;     +----+----+       +------+&#xa;     | Kode C?  |      | Kapasitas=6 |&#xa;     +----+----+      +------+&#xa;     |    |    |&#xa;    No   Yes   v&#xa;    |    +------+       +------+&#xa;    +---&amp;gt;| Kapasitas=6 |&amp;lt;------+&#xa;         +------+      |&#xa;                        v&#xa;     +----+----+       +------+&#xa;     | Kode D?  |      | Kapasitas=8 |&#xa;     +----+----+      +------+&#xa;         |&#xa;         v&#xa;     +---------+&#xa;     | Tampilkan|&#xa;     | Kapasitas|&#xa;     +-----+---+&#xa;          |&#xa;          v&#xa;     +---------+&#xa;     |  Sewa   |&#xa;     |  Tenda  |&#xa;     +-----+---+&#xa;          |&#xa;          v&#xa;     +---------+&#xa;     | Selesai |&#xa;     +---------+" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="370" width="180" height="860" as="geometry" />
-        </mxCell>
         <mxCell id="3Dvt1M0W_FzMuvrTinT6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="249.47058823529414" y="470.41176470588243" as="targetPoint" />
             <mxPoint x="250" y="470" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="3Dvt1M0W_FzMuvrTinT6-18" value="[Mulai]&#xa;      |&#xa;   [Pilih Kode Tenda]&#xa;      |&#xa;   [Periksa Ketersediaan]&#xa;      |&#xa; [Tenda Tersedia?]&#xa;   /    \&#xa;  Ya     Tidak&#xa;  |        |&#xa;[Masukkan   [Pilih Kode Tenda]&#xa; Data       (Ulangi Proses)&#xa; Penyewa]&#xa;  |&#xa;[Hitung Biaya Sewa]&#xa;  |&#xa;[Tampilkan Biaya Sewa]&#xa;  |&#xa;[Konfirmasi Penyewaan]&#xa;  |&#xa;[Proses Pembayaran]&#xa;  |&#xa;[Pembayaran Berhasil?]&#xa;  /    \&#xa; Ya     Tidak&#xa;  |        |&#xa;[Berikan    [Proses Pembayaran]&#xa;Konfirmasi  (Ulangi Proses)]&#xa;dan Informasi Tenda]&#xa;  |&#xa;[Selesai]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="760" width="200" height="470" as="geometry" />
         </mxCell>
         <mxCell id="3Dvt1M0W_FzMuvrTinT6-25" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3Dvt1M0W_FzMuvrTinT6-24">
           <mxGeometry relative="1" as="geometry">
@@ -126,10 +120,7 @@
           <mxGeometry x="190" y="220" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3Dvt1M0W_FzMuvrTinT6-59" value="End" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
-          <mxGeometry x="100" y="1340" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3Dvt1M0W_FzMuvrTinT6-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="3Dvt1M0W_FzMuvrTinT6-54" target="3Dvt1M0W_FzMuvrTinT6-59">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-10" y="1340" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
